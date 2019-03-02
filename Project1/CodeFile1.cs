@@ -25,7 +25,6 @@ class EnterNameAndSurname
         surname = Interaction.InputBox("Введите вашу фамилию", "Surname");
         res = "Вас зовут " + name + ' ' + surname;
         MessageBox.Show(res, "Your name is ...");
-
     }
 }
 
